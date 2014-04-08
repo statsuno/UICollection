@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA06100C18F13A1A00D3310E /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA06100B18F13A1A00D3310E /* CollectionCell.m */; };
+		CA06100F18F13BF700D3310E /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA06100D18F13BF700D3310E /* img1.jpg */; };
+		CA06101018F13BF700D3310E /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA06100E18F13BF700D3310E /* img3.jpg */; };
+		CA06101318F13C0000D3310E /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA06101118F13C0000D3310E /* img2.jpg */; };
+		CA06101418F13C0000D3310E /* img4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA06101218F13C0000D3310E /* img4.jpg */; };
 		CA0E420C18D150F5004CF694 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E420B18D150F5004CF694 /* Foundation.framework */; };
 		CA0E420E18D150F5004CF694 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E420D18D150F5004CF694 /* CoreGraphics.framework */; };
 		CA0E421018D150F5004CF694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E420F18D150F5004CF694 /* UIKit.framework */; };
 		CA0E421618D150F5004CF694 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0E421418D150F5004CF694 /* InfoPlist.strings */; };
 		CA0E421818D150F5004CF694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E421718D150F5004CF694 /* main.m */; };
 		CA0E421C18D150F5004CF694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E421B18D150F5004CF694 /* AppDelegate.m */; };
-		CA0E421F18D150F5004CF694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0E421D18D150F5004CF694 /* Main.storyboard */; };
 		CA0E422218D150F5004CF694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E422118D150F5004CF694 /* ViewController.m */; };
 		CA0E422418D150F5004CF694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0E422318D150F5004CF694 /* Images.xcassets */; };
 		CA0E422B18D150F5004CF694 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E422A18D150F5004CF694 /* XCTest.framework */; };
@@ -21,6 +25,7 @@
 		CA0E422D18D150F5004CF694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0E420F18D150F5004CF694 /* UIKit.framework */; };
 		CA0E423518D150F5004CF694 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0E423318D150F5004CF694 /* InfoPlist.strings */; };
 		CA0E423718D150F5004CF694 /* mmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E423618D150F5004CF694 /* mmTests.m */; };
+		CAA3E1B818D9ED3200D5890A /* CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA3E1B718D9ED3200D5890A /* CellViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA06100A18F13A1A00D3310E /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		CA06100B18F13A1A00D3310E /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		CA06100D18F13BF700D3310E /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img1.jpg; path = ../../../../Desktop/photo/img1.jpg; sourceTree = "<group>"; };
+		CA06100E18F13BF700D3310E /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img3.jpg; path = ../../../../Desktop/photo/img3.jpg; sourceTree = "<group>"; };
+		CA06101118F13C0000D3310E /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img2.jpg; path = ../../../../Desktop/photo/img2.jpg; sourceTree = "<group>"; };
+		CA06101218F13C0000D3310E /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img4.jpg; path = ../../../../Desktop/photo/img4.jpg; sourceTree = "<group>"; };
 		CA0E420818D150F5004CF694 /* mm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0E420B18D150F5004CF694 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CA0E420D18D150F5004CF694 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +55,6 @@
 		CA0E421918D150F5004CF694 /* mm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mm-Prefix.pch"; sourceTree = "<group>"; };
 		CA0E421A18D150F5004CF694 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA0E421B18D150F5004CF694 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA0E421E18D150F5004CF694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA0E422018D150F5004CF694 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA0E422118D150F5004CF694 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA0E422318D150F5004CF694 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +63,8 @@
 		CA0E423218D150F5004CF694 /* mmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mmTests-Info.plist"; sourceTree = "<group>"; };
 		CA0E423418D150F5004CF694 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA0E423618D150F5004CF694 /* mmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mmTests.m; sourceTree = "<group>"; };
+		CAA3E1B618D9ED3200D5890A /* CellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellViewController.h; sourceTree = "<group>"; };
+		CAA3E1B718D9ED3200D5890A /* CellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +126,17 @@
 			children = (
 				CA0E421A18D150F5004CF694 /* AppDelegate.h */,
 				CA0E421B18D150F5004CF694 /* AppDelegate.m */,
-				CA0E421D18D150F5004CF694 /* Main.storyboard */,
 				CA0E422018D150F5004CF694 /* ViewController.h */,
 				CA0E422118D150F5004CF694 /* ViewController.m */,
+				CA06100A18F13A1A00D3310E /* CollectionCell.h */,
+				CA06100B18F13A1A00D3310E /* CollectionCell.m */,
+				CAA3E1B618D9ED3200D5890A /* CellViewController.h */,
+				CAA3E1B718D9ED3200D5890A /* CellViewController.m */,
 				CA0E422318D150F5004CF694 /* Images.xcassets */,
+				CA06100D18F13BF700D3310E /* img1.jpg */,
+				CA06101118F13C0000D3310E /* img2.jpg */,
+				CA06101218F13C0000D3310E /* img4.jpg */,
+				CA06100E18F13BF700D3310E /* img3.jpg */,
 				CA0E421218D150F5004CF694 /* Supporting Files */,
 			);
 			path = mm;
@@ -196,7 +215,7 @@
 		CA0E420018D150F5004CF694 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "龍野翔";
 				TargetAttributes = {
 					CA0E422818D150F5004CF694 = {
@@ -229,8 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA0E422418D150F5004CF694 /* Images.xcassets in Resources */,
+				CA06101318F13C0000D3310E /* img2.jpg in Resources */,
+				CA06100F18F13BF700D3310E /* img1.jpg in Resources */,
 				CA0E421618D150F5004CF694 /* InfoPlist.strings in Resources */,
-				CA0E421F18D150F5004CF694 /* Main.storyboard in Resources */,
+				CA06101418F13C0000D3310E /* img4.jpg in Resources */,
+				CA06101018F13BF700D3310E /* img3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA0E422218D150F5004CF694 /* ViewController.m in Sources */,
+				CA06100C18F13A1A00D3310E /* CollectionCell.m in Sources */,
 				CA0E421C18D150F5004CF694 /* AppDelegate.m in Sources */,
+				CAA3E1B818D9ED3200D5890A /* CellViewController.m in Sources */,
 				CA0E421818D150F5004CF694 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,14 +306,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		CA0E421D18D150F5004CF694 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA0E421E18D150F5004CF694 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA0E423318D150F5004CF694 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -305,7 +321,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +359,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -402,7 +416,6 @@
 		CA0E423E18D150F5004CF694 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mm.app/mm";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +438,6 @@
 		CA0E423F18D150F5004CF694 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mm.app/mm";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +472,7 @@
 				CA0E423C18D150F5004CF694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA0E423D18D150F5004CF694 /* Build configuration list for PBXNativeTarget "mmTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				CA0E423F18D150F5004CF694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

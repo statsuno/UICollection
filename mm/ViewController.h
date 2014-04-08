@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController :UICollectionViewController
+//UIViewController <UICollectionViewDelegate, UICollectionViewDataSource>
+{
+    //UICollectionViewFlowLayout *_flowLayout;
+    //UICollectionView *_collectionView;
+}
+
+@property (retain, nonatomic) UICollectionViewFlowLayout *flowLayout;
+@property (retain, nonatomic) UICollectionView *collectionView;
+
+@property (strong, nonatomic) NSArray *array;
 
 @end

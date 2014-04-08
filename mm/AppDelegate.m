@@ -7,12 +7,26 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
+@interface AppDelegate()
+
+@property (nonatomic, strong) UINavigationController *naviCtrl;
+
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    ViewController *c = ViewController.new;
+    self.naviCtrl = [[UINavigationController alloc] initWithRootViewController:c];
+    self.window.rootViewController = self.naviCtrl;
+    self.naviCtrl.navigationBar.translucent = NO;
+    self.naviCtrl.toolbar.translucent = NO;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
